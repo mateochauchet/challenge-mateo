@@ -1,10 +1,10 @@
 import "./App.css";
-import { HomePage } from "./pages";
+import { ItemasPage } from "./pages";
 
 function App() {
   return (
     <>
-      <HomePage />
+      <ItemasPage />
     </>
   );
 }
