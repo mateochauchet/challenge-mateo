@@ -1,5 +1,6 @@
-import { ChangeEvent } from "react";
+import { ChangeEvent, useCallback } from "react";
 import { useItemsContext } from "../../context/ItemsContext";
+import debounce from "lodash.debounce";
 import { useItems } from "../../hooks/useItems";
 
 const Filters = () => {
@@ -10,10 +11,17 @@ const Filters = () => {
 
   const { requestItems } = useItems();
 
+  const debounceSearch = useCallback(
+    debounce((search) => {
+      requestItems({ page: 1, search });
+    }, 300),
+    []
+  );
+
   const handleChangeSearch = async (event: ChangeEvent<HTMLInputElement>) => {
     const search = event.target.value;
     setFilters({ ...filters, search });
-    requestItems({ page: 1, search });
+    debounceSearch(search);
   };
 
   return (
