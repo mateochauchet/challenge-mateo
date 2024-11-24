@@ -4,6 +4,7 @@ export interface IState {
   items: IItem[];
   pagination: IPagination;
   loading: boolean;
+  filters: Record<string, string>;
 }
 
 interface IPagination {
@@ -16,4 +17,5 @@ export interface ItemsActions {
   setLoading: (loading: boolean) => void;
   setPage: (page: number) => void;
   setHasNext: (hasNext: boolean) => void;
+  setFilters: (filters: Record<string, string>) => void;
 }
