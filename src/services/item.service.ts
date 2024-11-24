@@ -1,10 +1,18 @@
 import { IItem } from "../entities";
+import { adaptParams } from "./helpers/paramsAdapter";
 
 const API_URL = "http://localhost:3000/items";
 
-const getItems = async (params?: Record<string, any>): Promise<IItem[]> => {
+export interface IGetItemsParams {
+  search?: string;
+  page?: number;
+}
+
+const getItems = async (params?: IGetItemsParams): Promise<IItem[]> => {
+  const adaptedParams = adaptParams(params);
+
   try {
-    const URL = `${API_URL}?` + new URLSearchParams(params);
+    const URL = `${API_URL}?` + new URLSearchParams(adaptedParams);
 
     const response = await fetch(URL);
 

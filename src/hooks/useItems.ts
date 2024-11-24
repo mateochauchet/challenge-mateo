@@ -1,5 +1,5 @@
 import { useItemsContext } from "../context/ItemsContext";
-import itemService from "../services/item.service";
+import itemService, { IGetItemsParams } from "../services/item.service";
 
 const useItems = () => {
   const {
@@ -8,7 +8,7 @@ const useItems = () => {
   } = useItemsContext();
   const { setItems, setLoading, setPage, setHasNext } = actions;
 
-  const requestTables = async (params?: Record<string, any>) => {
+  const requestItems = async (params?: IGetItemsParams) => {
     try {
       setLoading(true);
       const newItems = await itemService.getItems(params);
@@ -19,7 +19,7 @@ const useItems = () => {
       }
 
       setItems([...items, ...newItems]);
-      setPage(params?._page || 1);
+      setPage(params?.page || 1);
     } catch (error) {
       console.error("Error fetching items:", error);
     } finally {
@@ -27,7 +27,7 @@ const useItems = () => {
     }
   };
 
-  return { requestTables };
+  return { requestItems };
 };
 
 export { useItems };

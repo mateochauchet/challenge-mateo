@@ -9,11 +9,11 @@ const ItemsWrapper = () => {
   const {
     pagination: { currentPage, hasNext },
   } = state;
-  const { requestTables } = useItems();
+  const { requestItems } = useItems();
 
   const handleOnBottom = () => {
     if (hasNext) {
-      requestTables({ _page: currentPage + 1 });
+      requestItems({ page: currentPage + 1 });
     }
   };
 
@@ -22,7 +22,7 @@ const ItemsWrapper = () => {
   });
 
   useEffect(() => {
-    requestTables({ _page: 1 });
+    requestItems({ page: 1 });
   }, []);
 
   return (
