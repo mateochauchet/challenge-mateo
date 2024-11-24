@@ -9,7 +9,7 @@ export const useScroll = ({ onBottom }: IProps) => {
     const handleScroll = () => {
       const isBottom =
         window.innerHeight + document.documentElement.scrollTop >=
-        document.documentElement.offsetHeight;
+        document.documentElement.offsetHeight - 200;
 
       if (isBottom) {
         onBottom();

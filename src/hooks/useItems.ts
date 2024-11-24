@@ -13,6 +13,21 @@ const useItems = () => {
       setLoading(true);
       const newItems = await itemService.getItems(params);
 
+      setItems(newItems);
+      setPage(params?.page || 1);
+      setHasNext(newItems.length >= 10);
+    } catch (error) {
+      console.error("Error fetching items:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const requestNextItems = async (params?: IGetItemsParams) => {
+    try {
+      setLoading(true);
+      const newItems = await itemService.getItems(params);
+
       if (!newItems.length) {
         setHasNext(false);
         return;
@@ -27,7 +42,7 @@ const useItems = () => {
     }
   };
 
-  return { requestItems };
+  return { requestItems, requestNextItems };
 };
 
 export { useItems };
