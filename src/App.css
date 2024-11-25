@@ -1,4 +1,5 @@
-#root {
-  padding: 4rem 12rem;
+body {
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
