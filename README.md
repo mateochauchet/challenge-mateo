@@ -11,7 +11,7 @@ El proyecto utiliza **json-server** para simular la API que provee los datos de 
    ```
 
 
-## **2. Iniciar la aplicación React
+## 2. Iniciar la aplicación React
 
 En un terminal separado, ejecuta:
 
