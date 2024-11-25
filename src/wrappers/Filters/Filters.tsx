@@ -2,6 +2,10 @@ import { ChangeEvent, useCallback } from "react";
 import { useItemsContext } from "../../context/ItemsContext";
 import debounce from "lodash.debounce";
 import { useItems } from "../../hooks/useItems";
+import { SearchInput } from "../../components";
+import "./index.css";
+
+const className = "items-filters";
 
 const Filters = () => {
   const {
@@ -25,9 +29,8 @@ const Filters = () => {
   };
 
   return (
-    <div>
-      <input
-        type="text"
+    <div className={className}>
+      <SearchInput
         placeholder="Busca tu producto"
         onChange={handleChangeSearch}
         value={filters.search}

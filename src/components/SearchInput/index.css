@@ -1,0 +1,23 @@
+.search-input {
+  display: flex;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-input input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 12px;
+}
+
+.search-icon {
+  right: 15px;
+  font-size: 20px;
+  padding: 10px 15px;
+  color: #6f6f6f;
+  pointer-events: none;
+}
