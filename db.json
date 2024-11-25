@@ -14,12 +14,353 @@
     {
       "id": 2,
       "title": "Apple iPhone 13 (128 GB) - Verde",
-      "description": "iPhone 13. El sistema de dos cámaras más avanzado en un iPhone. El superrápido chip A15 Bionic. Un gran salto en duración de batería. Un diseño resistente. Y una pantalla Super Retina XDR más brillante.",
+      "description": "iPhone 13. El sistema de dos c\u00e1maras m\u00e1s avanzado en un iPhone. El superr\u00e1pido chip A15 Bionic. Un gran salto en duraci\u00f3n de bater\u00eda. Un dise\u00f1o resistente. Y una pantalla Super Retina XDR m\u00e1s brillante.",
       "image": "https://http2.mlstatic.com/D_NQ_NP_2X_736376-MLA49590060561_042022-F.webp",
       "detail": {
         "info": "iphone 11 128gb",
         "price": 800,
         "address": "USA"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Samsung Galaxy Z Fold4 5g 256 Gb Negro 12gb Ram",
+      "description": "Samsung Galaxy Z Fold4 5g 256 Gb Negro 12gb Ram",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_636048-MLA71497327058_092023-F.webp",
+      "detail": {
+        "info": "samsung info",
+        "price": 2500,
+        "address": "USA"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Samsung Galaxy A05 128 GB negro 4 GB RAM",
+      "description": "Description for Generic Smartphone 4",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_713582-MLA77213064255_062024-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 4 specs",
+        "price": 300,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Generic Smartphone 5 - Model 5GB",
+      "description": "Description for Generic Smartphone 5",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 5 specs",
+        "price": 350,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Generic Smartphone 6 - Model 6GB",
+      "description": "Description for Generic Smartphone 6",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 6 specs",
+        "price": 400,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Generic Smartphone 7 - Model 7GB",
+      "description": "Description for Generic Smartphone 7",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 7 specs",
+        "price": 450,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Generic Smartphone 8 - Model 8GB",
+      "description": "Description for Generic Smartphone 8",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 8 specs",
+        "price": 500,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Generic Smartphone 9 - Model 9GB",
+      "description": "Description for Generic Smartphone 9",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 9 specs",
+        "price": 550,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 10,
+      "title": "Generic Smartphone 10 - Model 10GB",
+      "description": "Description for Generic Smartphone 10",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 10 specs",
+        "price": 600,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 11,
+      "title": "Generic Smartphone 11 - Model 11GB",
+      "description": "Description for Generic Smartphone 11",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 11 specs",
+        "price": 650,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 12,
+      "title": "Generic Smartphone 12 - Model 12GB",
+      "description": "Description for Generic Smartphone 12",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 12 specs",
+        "price": 700,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 13,
+      "title": "Generic Smartphone 13 - Model 13GB",
+      "description": "Description for Generic Smartphone 13",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 13 specs",
+        "price": 750,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 14,
+      "title": "Generic Smartphone 14 - Model 14GB",
+      "description": "Description for Generic Smartphone 14",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 14 specs",
+        "price": 800,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 15,
+      "title": "Generic Smartphone 15 - Model 15GB",
+      "description": "Description for Generic Smartphone 15",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 15 specs",
+        "price": 850,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 16,
+      "title": "Generic Smartphone 16 - Model 16GB",
+      "description": "Description for Generic Smartphone 16",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 16 specs",
+        "price": 900,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 17,
+      "title": "Generic Smartphone 17 - Model 17GB",
+      "description": "Description for Generic Smartphone 17",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 17 specs",
+        "price": 950,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 18,
+      "title": "Generic Smartphone 18 - Model 18GB",
+      "description": "Description for Generic Smartphone 18",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 18 specs",
+        "price": 1000,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 19,
+      "title": "Generic Smartphone 19 - Model 19GB",
+      "description": "Description for Generic Smartphone 19",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 19 specs",
+        "price": 1050,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 20,
+      "title": "Generic Smartphone 20 - Model 20GB",
+      "description": "Description for Generic Smartphone 20",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 20 specs",
+        "price": 1100,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 21,
+      "title": "Generic Smartphone 21 - Model 21GB",
+      "description": "Description for Generic Smartphone 21",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 21 specs",
+        "price": 1150,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 22,
+      "title": "Generic Smartphone 22 - Model 22GB",
+      "description": "Description for Generic Smartphone 22",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 22 specs",
+        "price": 1200,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 23,
+      "title": "Generic Smartphone 23 - Model 23GB",
+      "description": "Description for Generic Smartphone 23",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 23 specs",
+        "price": 1250,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 24,
+      "title": "Generic Smartphone 24 - Model 24GB",
+      "description": "Description for Generic Smartphone 24",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 24 specs",
+        "price": 1300,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 25,
+      "title": "Generic Smartphone 25 - Model 25GB",
+      "description": "Description for Generic Smartphone 25",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 25 specs",
+        "price": 1350,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 26,
+      "title": "Generic Smartphone 26 - Model 26GB",
+      "description": "Description for Generic Smartphone 26",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 26 specs",
+        "price": 1400,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 27,
+      "title": "Generic Smartphone 27 - Model 27GB",
+      "description": "Description for Generic Smartphone 27",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 27 specs",
+        "price": 1450,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 28,
+      "title": "Generic Smartphone 28 - Model 28GB",
+      "description": "Description for Generic Smartphone 28",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 28 specs",
+        "price": 1500,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 29,
+      "title": "Generic Smartphone 29 - Model 29GB",
+      "description": "Description for Generic Smartphone 29",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 29 specs",
+        "price": 1550,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 30,
+      "title": "Generic Smartphone 30 - Model 30GB",
+      "description": "Description for Generic Smartphone 30",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 30 specs",
+        "price": 1600,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 31,
+      "title": "Generic Smartphone 31 - Model 31GB",
+      "description": "Description for Generic Smartphone 31",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 31 specs",
+        "price": 1650,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 32,
+      "title": "Generic Smartphone 32 - Model 32GB",
+      "description": "Description for Generic Smartphone 32",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 32 specs",
+        "price": 1700,
+        "address": "Worldwide"
+      }
+    },
+    {
+      "id": 33,
+      "title": "Generic Smartphone 33 - Model 33GB",
+      "description": "Description for Generic Smartphone 33",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_923867-MLA73064856518_112023-F.webp",
+      "detail": {
+        "info": "Generic Smartphone 33 specs",
+        "price": 1750,
+        "address": "Worldwide"
       }
     }
   ]
