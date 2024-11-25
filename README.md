@@ -4,17 +4,25 @@
 
 El proyecto utiliza **json-server** para simular la API que provee los datos de los productos.
 
-1. Asegúrate de estar en el directorio raíz del proyecto.
-2. Ejecuta el siguiente comando:
+1. Ejecuta el siguiente comando para iniciar el servidor:
+
    ```bash
    npm run start:server
-  ```
-### **2. Iniciar la aplicación React
+   ```
 
-En otro terminal, ejecuta:
+
+## **2. Iniciar la aplicación React
+
+En un terminal separado, ejecuta:
+
 ```bash
 npm run dev
 ```
-Abre la aplicación en tu navegador:
 
-http://localhost:5173
+Esto levantará la aplicación en el puerto predeterminado `http://localhost:5173`.
+
+Abre la aplicación en tu navegador accediendo a:
+
+[http://localhost:5173](http://localhost:5173)
+
+---
