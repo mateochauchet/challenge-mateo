@@ -1,6 +1,6 @@
 ## **Levantar el Proyecto**
 
-### **1. Iniciar el servidor JSON (API fake)**
+## 1. Iniciar el servidor JSON (API fake)
 
 El proyecto utiliza **json-server** para simular la API que provee los datos de los productos.
 
