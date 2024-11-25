@@ -4,6 +4,9 @@ import { useItems } from "../../hooks/useItems";
 import { useScroll } from "../../hooks/useScroll";
 import { useItemsContext } from "../../context/ItemsContext";
 import Filters from "../Filters/Filters";
+import "./index.css";
+
+const className = "items-page-wrapper";
 
 const ItemsWrapper = () => {
   const { state } = useItemsContext();
@@ -28,7 +31,7 @@ const ItemsWrapper = () => {
   }, []);
 
   return (
-    <div>
+    <div className={className}>
       <Filters />
       <ItemsList />
     </div>
