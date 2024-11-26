@@ -8,6 +8,10 @@ export interface IGetItemsParams {
   page?: number;
 }
 
+const delay = (ms: number): Promise<void> => {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+};
+
 const getItems = async (params?: IGetItemsParams): Promise<IItem[]> => {
   const adaptedParams = adaptParams(params);
 
@@ -15,6 +19,9 @@ const getItems = async (params?: IGetItemsParams): Promise<IItem[]> => {
     const URL = `${API_URL}?` + new URLSearchParams(adaptedParams);
 
     const response = await fetch(URL);
+
+    // Agrego esto para el delay de la api y que se apreceie el loading
+    await delay(1000);
 
     return await response.json();
   } catch (error) {
