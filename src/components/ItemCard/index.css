@@ -30,3 +30,20 @@
   width: 100%;
   object-fit: contain;
 }
+
+.item-card .item-card-content button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.4em 1em;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: rgba(65, 137, 230, 0.15);
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: #3483fa;
+}
+
+.item-card .item-card-content button:hover {
+  opacity: 0.8;
+}
